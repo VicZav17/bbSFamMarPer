@@ -1,0 +1,12 @@
+/* Ocultar la imagen de escritorio en dispositivos móviles */
+@media (max-width: 767px) {
+    .desktop-image {
+        display: none;
+    }
+}
+/* Ocultar la imagen de dispositivos móviles en escritorio */
+@media (min-width: 768px) {
+    .desktop-image {
+        display: none;
+    }
+}
